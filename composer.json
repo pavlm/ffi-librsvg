@@ -1,0 +1,15 @@
+{
+	"name" : "pavlm/php-ffi-librsvg",
+	"description" : "SVG rasterization library binding",
+	"type" : "library",
+	"authors" : [{
+			"name" : "pavlm",
+			"email" : "pavlm.dev@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"pavlm\\Rsvg\\" : ".//Rsvg//"
+		}
+	}
+}
