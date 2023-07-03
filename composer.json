@@ -7,6 +7,10 @@
 			"email" : "pavlm.dev@gmail.com"
 		}
 	],
+	"require" : {
+        "php": "~7.4 | ~8.0",
+		"ext-ffi" : "*"
+	},
 	"autoload" : {
 		"psr-4" : {
 			"pavlm\\Rsvg\\" : ".//Rsvg//"
