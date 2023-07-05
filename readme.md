@@ -33,7 +33,7 @@ Conversion via command line utility rsvg-cli.php
 ```
 curl https://upload.wikimedia.org/wikipedia/commons/f/fd/Ghostscript_Tiger.svg | \
  tee /tmp/tiger.svg | \
- php rsvg-cli.php | \
+ php bin/rsvg-cli.php | \
  tee /tmp/tiger.png | \
  display
 ```
